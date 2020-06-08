@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://images.axios.com/o6EsUvhD8TQHyWc-rsfkEnLgxaQ=/0x59:5568x3191/1920x1080/2019/05/02/1556809101441.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    width: 75%;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    left: -10px;
+    top: -8px;
+    
+}
+
+.menubox{
+    position: relative;
+    height: 10px;
+    width: 14px;
+    right: -160px;
+    top: 8px;
+    background-color: white;
+}
+
+.title{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 400px;
+    left: 15px;
+}
+
+h4 {
+    
+    font-size: 20px;
+    margin: 20px;
+    
+
+}
+
+h2 {
+    font-size: 50px;
+    margin: 14px;
+    
+}
+
+container{
+    
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+container > div{
+    font-size: 10px;
+    text-align: center;
+    bottom: -15px;
+    position: relative;
+
+}
+
